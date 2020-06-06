@@ -1,0 +1,8 @@
+
+
+GrayScale filter:
+    wR = 0.299, wG = 0.587, wB = 0.114
+
+    for every pixel in the image
+        x  = wR * r + wG * g + wB * b
+        pixel = (x, x, x)
